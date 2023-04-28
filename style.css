@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+}
+.game{
+    width: 90%;
+    height: 90vh;
+    text-align: center;
+    color: aliceblue;
+    font-family: system-ui;
+    margin: auto;
+    font-weight: 500;
+}
+.title{
+    background-color: #f25;
+    margin:  5px 0;
+    padding: 20px 0;
+    font-size: 30px;
+}
+span{
+    background-color: #fa0;
+    margin-right: 15px;
+}
+.square{
+    width: 28%;
+    height: 20%;
+    background-color: #f25;
+    float: left;
+    margin: 20px;
+    align-items: center;
+    font-size: 80px;
+}
+.square:hover {
+background-color: #000;
+cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+   .square{
+    width: 22%;
+    margin: 15px;
+   }
+}
